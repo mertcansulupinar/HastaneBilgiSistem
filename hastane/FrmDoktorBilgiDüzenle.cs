@@ -45,72 +45,7 @@ namespace hastane
             }
             bgl.baglanti().Close();
 
-            /*
-
-//Connection oluşturup açıyoruz.
-
-
-OleDbConnection c = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:ProjectsCalisma.accdb");
-
-
-            c.Open();
-
-
-            //Öncelikli olarak biz combobox a bişeyler yazmaya başladığımızda içinde arama yapılacak yapıdan bir nesne oluşturuyoruz.
-
-
-            AutoCompleteStringCollection aCsC = new AutoCompleteStringCollection();
-
-
-            DataTable dt = new DataTable();
-
-
-            string sql = "Select urunAdi From Urunler";
-
-
-            OleDbDataAdapter da = new OleDbDataAdapter(sql, c);
-
-
-            da.Fill(dt);
-
-
-            //Bu for döngüsü ile datatable deki verilerimizi,içinde arama yapacağımız koleksiyona teker teker ekliyoruz.
-
-
-            for (int i = 0; i < dt.Rows.Count; i++)
-
-
-            {
-
-
-                aCsC.Add(dt.Rows[0].ToString());
-
-
-            }
-
-
-            //cb combobox ımızın ismi.comboboxımızın hangi koleksiyonu kullanacağını belirtiyoruz.
-
-
-            cb.AutoCompleteCustomSource = aCsC;
-
-
-            //combobox ımızı datatable ile dolduruyoruz.
-
-
-            cb.DataSource = dt;
-
-
-
-
-
-            c.Close();
-            */
-
-
         }
-
-
 
         private void Btnbilgigüncelle_Click(object sender, EventArgs e)
         {
