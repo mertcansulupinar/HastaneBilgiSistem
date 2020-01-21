@@ -1,0 +1,1 @@
+Data Source=YourPCServer\SQLEXPRESS;Initial Catalog=HastaneProje;Integrated Security=True
