@@ -4,7 +4,7 @@ Hospital appointment and information system
 I created a hospital appointment and information system, it's initial level and it's basic but if you want learn new things, you repeat many times so i choose this method; 
 <strong>when I learn something new, I'll share it with more people because the information is beautiful as you share it :)</strong>
 
-<h1>I used</h1>
+<h2>I used</h2>
 <ul>
 <li>label</li>
 <li>textBox</li>
@@ -16,7 +16,7 @@ I created a hospital appointment and information system, it's initial level and 
 <li>KeyChar</li>
 </lu>
 
-<h1>How can you use this project with SQL ?</h1>
+<h2>How can you use this project with SQL ?</h2>
 <lu>
 <li>You must have <strong> SQL Server Management Studio </strong> if you don't have it, you should download.</li>
 <li>Then you must copy the SQL files <strong>(HastaneProje.mdf and HastaneProje_log.ldf)</strong> 
@@ -27,7 +27,7 @@ contained in the project folder into the Management Studio's data folder <strong
 <li>Lastly you should learn your server name <strong>(ex:DESKTOP-AAAAAA\SQLEXPRESS)</strong> and change the server name inside <strong>connection.txt</strong>
 </lu>
 
-<h1>Screenshots</h1>
+<h2>Screenshots</h2>
 <lu>
 <strong>Welcome</strong>
 <br>
@@ -97,5 +97,9 @@ contained in the project folder into the Management Studio's data folder <strong
 <strong>Announcements</strong>
 <br>
 <img src="https://github.com/mertcansulupinar/HastaneBilgiSistem/blob/master/announcements.png?raw=true" alt="Photo" title="announcements">
-<br>
-<br>
+</lu>
+
+<h2>Accelerated Preview Video</h2>
+<lu>
+You can watch it here: https://bit.ly/hastaneproje
+</lu>
